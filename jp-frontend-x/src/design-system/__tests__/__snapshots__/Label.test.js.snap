@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label component should render Label component 1`] = `
+.emotion-0 {
+  font-weight: bold;
+  display: inline-block;
+}
+
+<Label
+  as="label"
+  display="inline-block"
+  fontWeight="bold"
+  hidden={false}
+  nowrap={false}
+>
+  <label
+    className="emotion-0"
+  >
+    Label
+  </label>
+</Label>
+`;
+
+exports[`Label component should render accessiblyHide Label 1`] = `
+.emotion-0 {
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+<Label
+  as="label"
+  display="inline-block"
+  fontWeight="bold"
+  hidden={true}
+  nowrap={false}
+>
+  <label
+    className="emotion-0"
+  >
+    Hidden Label
+  </label>
+</Label>
+`;

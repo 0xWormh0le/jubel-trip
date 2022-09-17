@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component renders capitalized Text correctly 1`] = `
+<Text
+  textStyle="capitalize"
+>
+  <div
+    className="emotion-0"
+  >
+    Capitalized
+  </div>
+</Text>
+`;
+
+exports[`Text component renders lowercase Text correctly 1`] = `
+<Text
+  textStyle="lowercase"
+>
+  <div
+    className="emotion-0"
+  >
+    Lower Case
+  </div>
+</Text>
+`;
+
+exports[`Text component renders truncated Text correctly 1`] = `
+<Text
+  textStyle="truncate"
+>
+  <div
+    className="emotion-0"
+  >
+    Truncated
+  </div>
+</Text>
+`;
+
+exports[`Text component renders uppercase Text correctly 1`] = `
+.emotion-0 {
+  text-transform: uppercase;
+}
+
+<Text
+  uppercase={true}
+>
+  <div
+    className="emotion-0"
+  >
+    Upper Case
+  </div>
+</Text>
+`;

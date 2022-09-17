@@ -1,0 +1,16 @@
+{
+  "story_date": "{{date, date}}",
+  "currency": "{{currency, currency}}",
+  "number": "{{number, number}}",
+  "local_amount": "{{amount, currencyLocal}}",
+  "dollar_amount": "{{amount, currencyUSD}}",
+  "main_headline_1": "にマッチした体験型旅行",
+  "main_headline_2": "あなたのスタイル ご予算。 どこでも。",
+  "prefs_header": "嗜好",
+  "Germany": "ドイツ (Germany)",
+  "Mexico": "メキシコ (Mexico)",
+  "France": "フランス (France)",
+  "US": "英語 (US)",
+  "Japan": "日本 (Japan)",
+  "Spain": "スペイン (Spain)"
+}

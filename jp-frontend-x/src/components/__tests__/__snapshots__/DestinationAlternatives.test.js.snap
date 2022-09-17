@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DestinationAlternatives component renders DestinationAlternatives correctly 1`] = `
+<FlexPanel
+  bg="background"
+  display="flex"
+  flex={1}
+  flexDirection="row"
+  flexFlow="row wrap"
+  flexWrap="wrap"
+  justifyContent="space-between"
+  p={4}
+  scrollable={true}
+  width={1}
+>
+  <Alternatives
+    imageUrl="https://source.unsplash.com//800x600/?sydney"
+    key="0"
+    name="Sydney"
+  />
+  <Alternatives
+    imageUrl="https://source.unsplash.com/1600x900/?melbourne"
+    key="1"
+    name="Melbourne"
+  />
+  <Alternatives
+    imageUrl="https://source.unsplash.com/1600x900/?adelaide"
+    key="2"
+    name="Adelaide"
+  />
+  <Alternatives
+    imageUrl="https://source.unsplash.com/1600x900/?newcastle"
+    key="3"
+    name="Newcastle"
+  />
+  <Alternatives
+    imageUrl="https://source.unsplash.com/1600x900/?gold-coast"
+    key="4"
+    name="Gold Coast"
+  />
+  <Alternatives
+    imageUrl="https://source.unsplash.com/1600x900/?canberra"
+    key="5"
+    name="Canberra"
+  />
+</FlexPanel>
+`;

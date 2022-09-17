@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component should render icon without crashing 1`] = `
+.emotion-0 {
+  min-width: 24px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 24px;
+}
+
+<Icon
+  name="menu"
+  size={24}
+>
+  <Base
+    className="emotion-0"
+    name="menu"
+    size={24}
+  >
+    <Flex
+      centered={true}
+      className="emotion-0"
+      display="flex"
+    >
+      <div
+        className="emotion-1"
+      >
+        <svg
+          className="emotion-0"
+          name="menu"
+          size={24}
+        />
+      </div>
+    </Flex>
+  </Base>
+</Icon>
+`;

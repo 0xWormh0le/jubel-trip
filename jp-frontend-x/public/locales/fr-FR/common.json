@@ -1,0 +1,16 @@
+{
+  "story_date": "{{date, date}}",
+  "currency": "{{currency, currency}}",
+  "number": "{{number, number}}",
+  "local_amount": "{{amount, currencyLocal}}",
+  "dollar_amount": "{{amount, currencyUSD}}",
+  "main_headline_1": "Voyage expérientiel assorti à",
+  "main_headline_2": "Ton style. Ton budget. Nulle part.",
+  "prefs_header": "Les préférences",
+  "Germany": "Allemagne (Germany)",
+  "Mexico": "Mexique (Mexico)",
+  "France": "France (France)",
+  "US": "Anglais (US)",
+  "Japan": "Japon (Japan)",
+  "Spain": "Espagne (Spain)"
+}

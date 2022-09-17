@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component should render form component 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+}
+
+<Form>
+  <StyledForm
+    as="form"
+    display="grid"
+    gridGap="0.5rem"
+    gridTemplateColumns="auto 1fr"
+  >
+    <form
+      className="emotion-0"
+    />
+  </StyledForm>
+</Form>
+`;

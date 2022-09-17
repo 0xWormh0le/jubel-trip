@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlidingPanel component renders horizontal SlidingPanel correctly 1`] = `
+<Fragment>
+  <ForwardRef
+    bg="surface"
+    bottom={0}
+    data-panel-id="slp-undefined"
+    left={0}
+    onToggle={[Function]}
+    position="absolute"
+    style={
+      Object {
+        "width": AnimatedValue {
+          "animatedStyles": Set {},
+          "children": Array [],
+          "done": false,
+          "lastPosition": 0,
+          "lastTime": undefined,
+          "lastVelocity": undefined,
+          "payload": undefined,
+          "setValue": [Function],
+          "startPosition": 0,
+          "startTime": 1562385600000,
+          "value": 0,
+        },
+      }
+    }
+    top={0}
+    zIndex={201}
+  >
+    <FlexPanel
+      bg="surface"
+      boxShadow={1}
+      display="flex"
+      flex={1}
+      flexDirection="column"
+      overflow="hidden"
+      position="relative"
+    />
+    <CloseButton
+      color="misc.muted"
+      data-panel-id="slp-undefined"
+      left="auto"
+      name="arrow-forward"
+      onClick={[Function]}
+      position="absolute"
+      right=".75rem"
+      top="0.5rem"
+    />
+    <DragHandle
+      bg="secondary"
+      borderRadius="left.sm"
+      cursor="col-resize"
+      left="auto"
+      name="drag-vertical"
+      onMouseDownCapture={[Function]}
+      position="absolute"
+      px={0}
+      py={3}
+      right={0}
+      top="50%"
+      transform="translate(0,-50%)"
+    />
+  </ForwardRef>
+</Fragment>
+`;

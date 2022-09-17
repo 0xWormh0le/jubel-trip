@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelStylesDistribution component renders piechart correctly 1`] = `
+<Grid
+  display="grid"
+  gridColumnGap={1}
+  gridRowGap={0}
+  gridTemplateColumns="2fr 1fr"
+>
+  <Text
+    uppercase={true}
+  />
+  <RatingControl
+    color="border"
+    direction="ltr"
+    emptyIcon="empty-circle"
+    emptySymbol={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    fractions={2}
+    fullColor="secondary"
+    fullIcon="circle"
+    fullSymbol={
+      Object {
+        "backgroundColor": "black",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    initialRating={2}
+    onChange={[Function]}
+    onClick={[Function]}
+    onHover={[Function]}
+    placeholderSymbol={
+      Object {
+        "backgroundColor": "red",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    quiet={false}
+    readonly={true}
+    size={8}
+    start={0}
+    step={1}
+    stop={5}
+  />
+  <Text
+    uppercase={true}
+  />
+  <RatingControl
+    color="border"
+    direction="ltr"
+    emptyIcon="empty-circle"
+    emptySymbol={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    fractions={2}
+    fullColor="secondary"
+    fullIcon="circle"
+    fullSymbol={
+      Object {
+        "backgroundColor": "black",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    initialRating={1}
+    onChange={[Function]}
+    onClick={[Function]}
+    onHover={[Function]}
+    placeholderSymbol={
+      Object {
+        "backgroundColor": "red",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    quiet={false}
+    readonly={true}
+    size={8}
+    start={0}
+    step={1}
+    stop={5}
+  />
+  <Text
+    uppercase={true}
+  />
+  <RatingControl
+    color="border"
+    direction="ltr"
+    emptyIcon="empty-circle"
+    emptySymbol={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    fractions={2}
+    fullColor="secondary"
+    fullIcon="circle"
+    fullSymbol={
+      Object {
+        "backgroundColor": "black",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    initialRating={4}
+    onChange={[Function]}
+    onClick={[Function]}
+    onHover={[Function]}
+    placeholderSymbol={
+      Object {
+        "backgroundColor": "red",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    quiet={false}
+    readonly={true}
+    size={8}
+    start={0}
+    step={1}
+    stop={5}
+  />
+  <Text
+    uppercase={true}
+  />
+  <RatingControl
+    color="border"
+    direction="ltr"
+    emptyIcon="empty-circle"
+    emptySymbol={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    fractions={2}
+    fullColor="secondary"
+    fullIcon="circle"
+    fullSymbol={
+      Object {
+        "backgroundColor": "black",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    initialRating={3}
+    onChange={[Function]}
+    onClick={[Function]}
+    onHover={[Function]}
+    placeholderSymbol={
+      Object {
+        "backgroundColor": "red",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    quiet={false}
+    readonly={true}
+    size={8}
+    start={0}
+    step={1}
+    stop={5}
+  />
+</Grid>
+`;

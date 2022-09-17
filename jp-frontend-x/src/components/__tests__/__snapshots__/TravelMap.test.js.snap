@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelMap component renders correctly 1`] = `
+<MaxPanel
+  className="travelMap"
+  display="flex"
+  flex={1}
+  flexDirection="column"
+  height="100%"
+  minHeight={0}
+  position="relative"
+  width={1}
+>
+  <DeckGL
+    _animate={false}
+    _onMetrics={null}
+    controller={true}
+    debug={false}
+    drawPickingColors={false}
+    effects={Array []}
+    getCursor={[Function]}
+    gl={null}
+    glOptions={Object {}}
+    height="100%"
+    id="deckgl-overlay"
+    layerFilter={null}
+    layers={Array []}
+    onAfterRender={[Function]}
+    onBeforeRender={[Function]}
+    onLoad={[Function]}
+    onResize={[Function]}
+    onViewStateChange={[Function]}
+    onWebGLInitialized={[Function]}
+    pickingRadius={0}
+    touchAction="none"
+    useDevicePixels={true}
+    viewState={
+      Object {
+        "bearing": 30,
+        "height": 768,
+        "latitude": 20,
+        "longitude": -40,
+        "pitch": 0,
+        "transitionDuration": 1500,
+        "width": 1080,
+        "zoom": 2,
+      }
+    }
+    views={null}
+    width="100%"
+  />
+</MaxPanel>
+`;

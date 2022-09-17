@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bagde component should render as badge 1`] = `
+.emotion-0 {
+  font-size: 20px;
+  padding-left: 4px;
+  padding-right: 4px;
+  -webkit-letter-spacing: caps;
+  -moz-letter-spacing: caps;
+  -ms-letter-spacing: caps;
+  letter-spacing: caps;
+  text-align: center;
+  border-radius: circle;
+  opacity: 0.8;
+}
+
+<Badge
+  borderRadius="circle"
+  fontSize={3}
+  letterSpacing="caps"
+  opacity={0.8}
+  px={1}
+  textAlign="center"
+  textTransform="uppercase"
+>
+  <div
+    className="emotion-0"
+  />
+</Badge>
+`;

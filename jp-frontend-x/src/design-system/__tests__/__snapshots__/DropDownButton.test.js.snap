@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDownButton component renders correctly 1`] = `
+.emotion-6 {
+  color: on.surface;
+  position: relative;
+  position: relative;
+}
+
+.emotion-5 {
+  color: misc.muted;
+  background-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: none;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 28px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 28px;
+}
+
+.emotion-4 {
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 4px;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<DropDownButton
+  color="on.surface"
+  items={
+    Array [
+      Object {
+        "label": "by Name",
+        "value": "byName",
+      },
+      Object {
+        "label": "by Date",
+        "value": "byDate",
+      },
+      Object {
+        "label": "by Age",
+        "value": "byAge",
+      },
+    ]
+  }
+  label="Sort by"
+  onSelect={[Function]}
+  t={[Function]}
+  value={null}
+>
+  <Relative
+    color="on.surface"
+    onKeyDown={[Function]}
+    position="relative"
+  >
+    <div
+      className="emotion-6"
+      onKeyDown={[Function]}
+    >
+      <Manager>
+        <Reference>
+          <InnerReference
+            setReferenceNode={[Function]}
+          >
+            <IconButton
+              label="Sort by"
+              labelPosition="left"
+              name="arrow-drop-down"
+              onClick={[Function]}
+              px={1}
+              size={28}
+              textStyle="normal"
+            >
+              <Flex
+                alignItems="center"
+                as="button"
+                bg="transparent"
+                border="none"
+                color="misc.muted"
+                disabled={false}
+                display="flex"
+                flexDirection="row"
+                flexWrap="nowrap"
+                hoverable={true}
+                justifyContent={false}
+                nobr={true}
+                onClick={[Function]}
+                px={1}
+                textStyle="normal"
+              >
+                <button
+                  className="emotion-5"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <Icon
+                    name="arrow-drop-down"
+                    order={2}
+                    size={28}
+                  >
+                    <Base
+                      className="emotion-0"
+                      name="arrow-drop-down"
+                      order={2}
+                      size={28}
+                    >
+                      <Flex
+                        centered={true}
+                        className="emotion-0"
+                        display="flex"
+                        order={2}
+                      >
+                        <div
+                          className="emotion-1"
+                        >
+                          <svg
+                            className="emotion-0"
+                            name="arrow-drop-down"
+                            order={2}
+                            size={28}
+                          />
+                        </div>
+                      </Flex>
+                    </Base>
+                  </Icon>
+                  <Text
+                    bg="transparent"
+                    bold={true}
+                    disabled={false}
+                    fontSize={3}
+                    mb={false}
+                    ml={false}
+                    mr={1}
+                    mt={false}
+                    nobr={true}
+                    order={1}
+                    truncate={true}
+                    uppercase={true}
+                  >
+                    <div
+                      className="emotion-4"
+                      disabled={false}
+                    >
+                      Sort by
+                    </div>
+                  </Text>
+                </button>
+              </Flex>
+            </IconButton>
+          </InnerReference>
+        </Reference>
+        <Popper
+          eventsEnabled={true}
+          placement="auto-end"
+        >
+          <InnerPopper
+            eventsEnabled={true}
+            placement="auto-end"
+            positionFixed={false}
+            referenceElement={
+              .emotion-3 {
+  color: misc.muted;
+  background-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: none;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 28px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 28px;
+}
+
+.emotion-2 {
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 4px;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<button
+                class="emotion-3"
+              >
+                <div
+                  class="emotion-1"
+                >
+                  <svg
+                    class="emotion-0"
+                    name="arrow-drop-down"
+                    order="2"
+                    size="28"
+                  />
+                </div>
+                <div
+                  class="emotion-2"
+                >
+                  Sort by
+                </div>
+              </button>
+            }
+          />
+        </Popper>
+      </Manager>
+    </div>
+  </Relative>
+</DropDownButton>
+`;

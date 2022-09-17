@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TripCard component renders correctly 1`] = `
+<MaxPanel
+  bg="background"
+  display="flex"
+  flex={1}
+  flexDirection="column"
+  height="100%"
+  id="trip_list"
+  minHeight={0}
+  width={1}
+>
+  <FlexPanel
+    display="flex"
+    flexDirection="column"
+    p={3}
+    vscrollable={true}
+  >
+    <withRouter(withI18nextTranslation(inject-TripCardWrapper))
+      key="0"
+      mb={3}
+      trip={
+        Object {
+          "activities": Array [
+            "Hiking",
+            "Museums",
+            "Nature Reserves",
+            "Ruins",
+            "Wildlife Sightseeing",
+          ],
+          "airport": false,
+          "continentCode": "NA",
+          "continentName": "North America",
+          "conventionality": "off-the-grid",
+          "countryCode": "MX",
+          "countryName": "Mexico",
+          "description": "Calakmul is an unspoiled tropical reserve that signifies \\"two adjacent mounds\\" in Mayan. Its impressive ruins are rightfully recognized by UNESCO as a Cultural Heritage of Humanity, and its pristine forest is known to be the second lung of America. <p>You'll easily be able to spot many of the over 86 species of mammals. Enjoy the excitement of being close to jaguars, pumas, ocelots, jaguarundis, and margays, (five of the six feline species currently living in México), as well as spider monkeys, anteaters, eagles, tapirs, and more than 300 species of birds. Admire the beauty of the orchids: you will find about 73 different types here. <p>Finally, you simply CANNOT miss the Calakmul archaeological site, it is an absolute hidden gem. Discovering the settlements of this Mayan urban center lost within the jungle and swallowed by its vegetation is an experience worthy of a thorough visit.  ",
+          "developmentLevel": "Isolated",
+          "duration": "P1D",
+          "estimatedCost": 194,
+          "gid": 6942866,
+          "id": 564,
+          "images": Array [
+            Object {
+              "caption": "Calakmul",
+              "src": "https://jubelproduction.s3.amazonaws.com/uploads/destination/main_image/564/shutterstock_192551102.jpg",
+              "thumbnail": "https://jubelproduction.s3.amazonaws.com/uploads/destination/main_image/564/card_shutterstock_192551102.jpg",
+            },
+            Object {
+              "caption": "Calakmul",
+              "src": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/1539/shutterstock_194179301.jpg",
+              "thumbnail": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/1539/thumb_shutterstock_194179301.jpg",
+            },
+            Object {
+              "caption": "Calakmul",
+              "src": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/1540/shutterstock_562749169.jpg",
+              "thumbnail": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/1540/thumb_shutterstock_562749169.jpg",
+            },
+          ],
+          "latitude": 18,
+          "longitude": -89.75,
+          "name": "Calakmul",
+          "naturalScenery": Array [
+            "Jungle",
+          ],
+          "shocks": Object {
+            "crime": 0,
+            "food": 3,
+            "infrastructure": 5,
+            "language": 3,
+          },
+          "travelLogistics": "Car",
+          "travelStyles": Object {
+            "an": 100,
+            "cn": 80,
+            "cu": 100,
+            "oc": 0,
+            "pp": 0,
+          },
+        }
+      }
+    />
+    <withRouter(withI18nextTranslation(inject-TripCardWrapper))
+      key="1"
+      mb={3}
+      trip={
+        Object {
+          "activities": Array [
+            "Beach",
+            "Day Trips",
+            "Kayaking",
+            "Ruins",
+            "Sailing",
+            "Scuba Diving",
+            "Snorkeling",
+            "Swimming",
+          ],
+          "airport": false,
+          "continentCode": "NA",
+          "continentName": "North America",
+          "conventionality": "off-the-beaten-path",
+          "countryCode": "MX",
+          "countryName": "Mexico",
+          "description": "Bacalar is a true natural treasure. The Lake of Seven Colors is a freshwater paradise that at first glance resembles the turquoise waters and white sands of the Caribbean. However, upon first swimming in its water, you'll realize this place is a category of its own. <p>From afar, the lake amazes with beautiful turquoise-hued waters, but up and close, they turn crystal clear which makes them perfect for cave diving, snorkeling, or simply floating around. Thanks to the freshwater springs feeding the lake, you'll come out of its waters feeling energized, clean, and fresh, so don't be surprised if you end up taking a dip over and over again!<p>Bacalar's lake is also home to some of the oldest organisms on the planet called stromatolites, which could help decipher the origin of life, and also the secrets left by pirates who hid there in the 17th and 18th centuries.<p>Beyond the natural beauty of the lake, Bacalar is simply a heavenly town that will make you fall in love with its small fishermen’s houses, delicious seafood, and the nearby Mayan ruins waiting for you to go out and explore them.",
+          "developmentLevel": "Town",
+          "duration": "P3D",
+          "estimatedCost": 186,
+          "gid": 3532465,
+          "id": 520,
+          "images": Array [
+            Object {
+              "caption": "Bacalar",
+              "src": "https://jubelproduction.s3.amazonaws.com/uploads/destination/main_image/520/shutterstock_249963496.jpg",
+              "thumbnail": "https://jubelproduction.s3.amazonaws.com/uploads/destination/main_image/520/card_shutterstock_249963496.jpg",
+            },
+            Object {
+              "caption": "Bacalar",
+              "src": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/244/shutterstock_1139270006.jpg",
+              "thumbnail": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/244/thumb_shutterstock_1139270006.jpg",
+            },
+            Object {
+              "caption": "Bacalar",
+              "src": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/245/shutterstock_632325497.jpg",
+              "thumbnail": "https://jubelproduction.s3.amazonaws.com/uploads/photo/image/245/thumb_shutterstock_632325497.jpg",
+            },
+          ],
+          "latitude": 18.68109,
+          "longitude": -88.39333,
+          "name": "Bacalar",
+          "naturalScenery": Array [
+            "Jungle",
+            "Lake",
+          ],
+          "shocks": Object {
+            "crime": 1,
+            "food": 2,
+            "infrastructure": 3,
+            "language": 2,
+          },
+          "travelLogistics": "Car",
+          "travelStyles": Object {
+            "an": 100,
+            "cn": 100,
+            "cu": 80,
+            "oc": 100,
+            "pp": 20,
+          },
+        }
+      }
+    />
+  </FlexPanel>
+</MaxPanel>
+`;

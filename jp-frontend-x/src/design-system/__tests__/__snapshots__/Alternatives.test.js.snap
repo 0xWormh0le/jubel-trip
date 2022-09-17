@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alternatives component should render alternatives component 1`] = `
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.emotion-9:hover .alternatives__handle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  background-color: surface;
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  height: 270px;
+  width: 20px;
+  display: none;
+  opacity: 0.6;
+}
+
+.emotion-0 {
+  min-width: 20px;
+}
+
+.emotion-1 {
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 20px;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-7 {
+  margin-bottom: 32px;
+  padding: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+  height: 270px;
+  background-image: url(undefined);
+  width: 270px;
+  height: 270px;
+  background-size: cover;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-6 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-5 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+<Alternatives
+  name="Alternative"
+  url="https://source.unsplash.com/random"
+>
+  <AlternativesContainer
+    display="flex"
+  >
+    <div
+      className="emotion-9"
+    >
+      <DragIconContainer
+        bg="surface"
+        className="alternatives__handle"
+        position="absolute"
+        size={270}
+      >
+        <div
+          className="alternatives__handle emotion-4"
+          size={270}
+        >
+          <Icon
+            color="black"
+            name="drag-vertical"
+            size={20}
+          >
+            <Base
+              className="emotion-0"
+              color="black"
+              name="drag-vertical"
+              size={20}
+            >
+              <Flex
+                centered={true}
+                className="emotion-0"
+                color="black"
+                display="flex"
+              >
+                <div
+                  className="emotion-1"
+                >
+                  <svg
+                    className="emotion-0"
+                    color="black"
+                    name="drag-vertical"
+                    size={20}
+                  />
+                </div>
+              </Flex>
+            </Base>
+          </Icon>
+        </div>
+      </DragIconContainer>
+      <Flex
+        display="flex"
+      >
+        <div
+          className="emotion-8"
+        >
+          <ImageBox
+            display="flex"
+            mb={4}
+            p={1}
+            size={270}
+          >
+            <div
+              className="emotion-7"
+              size={270}
+            >
+              <Box
+                px={2}
+              >
+                <div
+                  className="emotion-6"
+                >
+                  <Text
+                    color="white"
+                    fontSize={5}
+                    fontWeight="bold"
+                  >
+                    <div
+                      className="emotion-5"
+                    >
+                      Alternative
+                    </div>
+                  </Text>
+                </div>
+              </Box>
+            </div>
+          </ImageBox>
+        </div>
+      </Flex>
+    </div>
+  </AlternativesContainer>
+</Alternatives>
+`;

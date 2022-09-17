@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid component should render as Grid 1`] = `
+.emotion-0 {
+  display: grid;
+}
+
+<Grid
+  display="grid"
+>
+  <div
+    className="emotion-0"
+  />
+</Grid>
+`;

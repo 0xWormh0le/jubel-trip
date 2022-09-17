@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingControl component renders with custom icons correctly 1`] = `
+<RatingAPILayer
+  direction="ltr"
+  emptySymbol={
+    <ForwardRef(render)
+      color="border"
+      name="empty-circle"
+      size={18}
+    />
+  }
+  fractions={2}
+  fullSymbol={
+    <ForwardRef(render)
+      color="primary"
+      name="full-circle"
+      size={18}
+    />
+  }
+  onChange={[Function]}
+  onClick={[Function]}
+  onHover={[Function]}
+  placeholderSymbol={
+    Object {
+      "backgroundColor": "red",
+      "border": "5px double white",
+      "borderRadius": "50%",
+      "display": "inline-block",
+      "height": 30,
+      "width": 30,
+    }
+  }
+  quiet={false}
+  readonly={false}
+  start={0}
+  step={1}
+  stop={5}
+/>
+`;
+
+exports[`RatingControl component renders with specified color state correctly 1`] = `
+<RatingAPILayer
+  direction="ltr"
+  emptySymbol={
+    <ForwardRef(render)
+      color="orange"
+      name="star-border"
+      size={28}
+    />
+  }
+  fractions={1}
+  fullSymbol={
+    <ForwardRef(render)
+      color="pink"
+      name="star"
+      size={28}
+    />
+  }
+  onChange={[Function]}
+  onClick={[Function]}
+  onHover={[Function]}
+  placeholderSymbol={
+    Object {
+      "backgroundColor": "red",
+      "border": "5px double white",
+      "borderRadius": "50%",
+      "display": "inline-block",
+      "height": 30,
+      "width": 30,
+    }
+  }
+  quiet={false}
+  readonly={false}
+  start={0}
+  step={1}
+  stop={5}
+/>
+`;

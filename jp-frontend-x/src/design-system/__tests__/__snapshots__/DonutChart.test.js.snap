@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonutChart component should always render a DonutChart 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

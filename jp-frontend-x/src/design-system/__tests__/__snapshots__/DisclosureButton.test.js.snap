@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisclosureButton component renders correctly 1`] = `
+.emotion-4 {
+  color: on.border;
+  background-color: border;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  border-radius: circle;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 28px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 28px;
+}
+
+<DisclosureButton
+  bg="border"
+  borderRadius="circle"
+  borderStyle="solid"
+  borderWidth={1}
+  color="on.border"
+  name="arrow-right"
+  primary={true}
+  size={28}
+>
+  <IconButton
+    bg="border"
+    borderRadius="circle"
+    borderStyle="solid"
+    borderWidth={1}
+    className="emotion-5"
+    color="on.border"
+    name="arrow-right"
+    primary={true}
+    size={28}
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="border"
+      border="none"
+      borderRadius="circle"
+      borderStyle="solid"
+      borderWidth={1}
+      className="emotion-5"
+      color="on.border"
+      disabled={false}
+      display="flex"
+      flexDirection="column"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent="center"
+      nobr={true}
+      primary={true}
+    >
+      <button
+        className="emotion-4"
+        disabled={false}
+      >
+        <Icon
+          name="arrow-right"
+          order={1}
+          size={28}
+        >
+          <Base
+            className="emotion-0"
+            name="arrow-right"
+            order={1}
+            size={28}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="arrow-right"
+                  order={1}
+                  size={28}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+      </button>
+    </Flex>
+  </IconButton>
+</DisclosureButton>
+`;

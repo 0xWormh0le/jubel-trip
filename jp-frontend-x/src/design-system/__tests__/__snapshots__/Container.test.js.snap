@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component should render Container component 1`] = `
+.emotion-0 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
+}
+
+@media screen and (min-width:40em) {
+  .emotion-0 {
+    max-width: 52rem;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .emotion-0 {
+    max-width: 64rem;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .emotion-0 {
+    max-width: 80rem;
+  }
+}
+
+<Container
+  maxWidth={
+    Array [
+      "40rem",
+      "52rem",
+      "64rem",
+      "80rem",
+      "104rem",
+      "128rem",
+    ]
+  }
+  mx="auto"
+>
+  <div
+    className="emotion-0"
+  />
+</Container>
+`;

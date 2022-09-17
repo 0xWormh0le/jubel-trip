@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewButton component renders correctly 1`] = `
+.emotion-5 {
+  color: green;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: none;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 16px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 16px;
+}
+
+.emotion-4 {
+  background-color: transparent;
+  font-size: 20px;
+  margin-left: 8px;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<ReviewButton
+  color="green"
+  label="Green Comments"
+  labelMargin={2}
+  name="review-icon"
+  size={16}
+>
+  <IconButton
+    className="emotion-6"
+    color="green"
+    label="Green Comments"
+    labelMargin={2}
+    name="review-icon"
+    size={16}
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="transparent"
+      border="none"
+      className="emotion-6"
+      color="green"
+      disabled={false}
+      display="flex"
+      flexDirection="row"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent={false}
+      nobr={true}
+    >
+      <button
+        className="emotion-5"
+        disabled={false}
+      >
+        <Icon
+          name="review-icon"
+          order={1}
+          size={16}
+        >
+          <Base
+            className="emotion-0"
+            name="review-icon"
+            order={1}
+            size={16}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="review-icon"
+                  order={1}
+                  size={16}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+        <Text
+          bg="transparent"
+          bold={true}
+          disabled={false}
+          fontSize={3}
+          mb={false}
+          ml={2}
+          mr={false}
+          mt={false}
+          nobr={true}
+          order={2}
+          truncate={true}
+          uppercase={true}
+        >
+          <div
+            className="emotion-4"
+            disabled={false}
+          >
+            Green Comments
+          </div>
+        </Text>
+      </button>
+    </Flex>
+  </IconButton>
+</ReviewButton>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingsAndReviews component renders correctly 1`] = `
+<Flex
+  alignItems="baseline"
+  display="flex"
+  py={0}
+>
+  <RatingControl
+    color="on.surface"
+    direction="ltr"
+    emptyIcon="star-border"
+    emptySymbol={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    fractions={1}
+    fullColor="secondaryVariant"
+    fullIcon="star"
+    fullSymbol={
+      Object {
+        "backgroundColor": "black",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    initialRating={3}
+    onChange={[Function]}
+    onClick={[Function]}
+    onHover={[Function]}
+    placeholderSymbol={
+      Object {
+        "backgroundColor": "red",
+        "border": "5px double white",
+        "borderRadius": "50%",
+        "display": "inline-block",
+        "height": 30,
+        "width": 30,
+      }
+    }
+    quiet={false}
+    readonly={false}
+    size={18}
+    start={0}
+    step={1}
+    stop={5}
+  />
+  <ReviewButton
+    color="misc.muted"
+    label="6"
+    labelMargin={2}
+    ml={3}
+    name="review-icon"
+    size={18}
+  />
+</Flex>
+`;

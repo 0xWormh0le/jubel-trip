@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelect component renders added items correctly 1`] = `
+<Box>
+  <StateManager
+    backspaceRemovesValue={false}
+    components={
+      Object {
+        "ClearIndicator": null,
+        "DropdownIndicator": [Function],
+        "IndicatorSeparator": null,
+      }
+    }
+    controlShouldRenderValue={false}
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    isMulti={true}
+    isRtl={false}
+    onChange={[Function]}
+    onCreateOption={[Function]}
+    onInputChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Fishing",
+          "value": "fishing",
+        },
+        Object {
+          "label": "Scuba",
+          "value": "scuba",
+        },
+        Object {
+          "label": "Climbing",
+          "value": "climbing",
+        },
+        Object {
+          "label": "Hunting",
+          "value": "hunting",
+        },
+      ]
+    }
+    placeholder="Activities..."
+    styles={
+      Object {
+        "control": [Function],
+        "dropdownIndicator": [Function],
+        "menu": [Function],
+        "noOptionsMessage": [Function],
+        "option": [Function],
+        "placeholder": [Function],
+        "valueContainer": [Function],
+      }
+    }
+    value={
+      Array [
+        Object {
+          "label": "Scuba",
+          "value": "scuba",
+        },
+        Object {
+          "label": "Climbing",
+          "value": "climbing",
+        },
+      ]
+    }
+  />
+  <Styled(div)>
+    <SelectedTag
+      data={
+        Object {
+          "label": "Scuba",
+          "value": "scuba",
+        }
+      }
+      key="scuba"
+      onRemove={[Function]}
+    />
+    <SelectedTag
+      data={
+        Object {
+          "label": "Climbing",
+          "value": "climbing",
+        }
+      }
+      key="climbing"
+      onRemove={[Function]}
+    />
+  </Styled(div)>
+</Box>
+`;
+
+exports[`MultiSelect component renders initial state correctly 1`] = `
+<Box>
+  <StateManager
+    backspaceRemovesValue={false}
+    components={
+      Object {
+        "ClearIndicator": null,
+        "DropdownIndicator": [Function],
+        "IndicatorSeparator": null,
+      }
+    }
+    controlShouldRenderValue={false}
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    isMulti={true}
+    isRtl={false}
+    onChange={[Function]}
+    onCreateOption={[Function]}
+    onInputChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Fishing",
+          "value": "fishing",
+        },
+        Object {
+          "label": "Scuba",
+          "value": "scuba",
+        },
+        Object {
+          "label": "Climbing",
+          "value": "climbing",
+        },
+        Object {
+          "label": "Hunting",
+          "value": "hunting",
+        },
+      ]
+    }
+    placeholder="Activities..."
+    styles={
+      Object {
+        "control": [Function],
+        "dropdownIndicator": [Function],
+        "menu": [Function],
+        "noOptionsMessage": [Function],
+        "option": [Function],
+        "placeholder": [Function],
+        "valueContainer": [Function],
+      }
+    }
+    value={Array []}
+  />
+  <Styled(div) />
+</Box>
+`;

@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabButton component renders active TabButton correctly 1`] = `
+.emotion-0 {
+  color: on.background;
+  background-color: surface;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-letter-spacing: tracked;
+  -moz-letter-spacing: tracked;
+  -ms-letter-spacing: tracked;
+  letter-spacing: tracked;
+  display: inline-block;
+  min-width: auto;
+  border: 1px;
+  border-bottom: 4px;
+  border-color: secondary;
+  border-left: 0;
+  border-radius: top.sm;
+  border-right: 0;
+  border-top: 0;
+  box-shadow: 0;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<TabButton
+  active={true}
+  onClick={[Function]}
+>
+  <Button
+    as="button"
+    bg="surface"
+    bold={true}
+    border={1}
+    borderBottom={4}
+    borderColor="secondary"
+    borderLeft={0}
+    borderRadius="top.sm"
+    borderRight={0}
+    borderTop={0}
+    boxShadow={0}
+    color="on.background"
+    display="inline-block"
+    hoverable={true}
+    letterSpacing="tracked"
+    minWidth="auto"
+    onClick={[Function]}
+    px={3}
+    py={3}
+    uppercase={true}
+  >
+    <button
+      className="emotion-0"
+      onClick={[Function]}
+    >
+      Active Tab
+    </button>
+  </Button>
+</TabButton>
+`;
+
+exports[`TabButton component renders non-active TabButton correctly 1`] = `
+.emotion-0 {
+  color: misc.muted;
+  background-color: surface;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-letter-spacing: tracked;
+  -moz-letter-spacing: tracked;
+  -ms-letter-spacing: tracked;
+  letter-spacing: tracked;
+  display: inline-block;
+  min-width: auto;
+  border: 1px;
+  border-bottom: 4px;
+  border-color: transparent;
+  border-left: 0;
+  border-radius: top.sm;
+  border-right: 0;
+  border-top: 0;
+  box-shadow: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<TabButton
+  active={false}
+  onClick={[Function]}
+>
+  <Button
+    as="button"
+    bg="surface"
+    bold={false}
+    border={1}
+    borderBottom={4}
+    borderColor="transparent"
+    borderLeft={0}
+    borderRadius="top.sm"
+    borderRight={0}
+    borderTop={0}
+    boxShadow={0}
+    color="misc.muted"
+    display="inline-block"
+    hoverable={true}
+    letterSpacing="tracked"
+    minWidth="auto"
+    onClick={[Function]}
+    px={3}
+    py={3}
+    uppercase={true}
+  >
+    <button
+      className="emotion-0"
+      onClick={[Function]}
+    >
+      Normal Tab
+    </button>
+  </Button>
+</TabButton>
+`;

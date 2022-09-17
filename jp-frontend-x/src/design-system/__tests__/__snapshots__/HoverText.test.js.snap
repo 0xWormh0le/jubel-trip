@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HoverText component should render as HoverText 1`] = `
+.emotion-0 {
+  color: on.surface;
+  background-color: surface;
+}
+
+<HoverText
+  bg="surface"
+  color="on.surface"
+  hover="links.darkenBg"
+>
+  <div
+    className="emotion-0"
+  >
+    Text
+  </div>
+</HoverText>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should render as card 1`] = `
+.emotion-0 {
+  background-color: surface;
+  border-radius: sm;
+  box-shadow: 4px;
+}
+
+<Card
+  bg="surface"
+  borderRadius="sm"
+  boxShadow={4}
+  className="surface"
+>
+  <div
+    className="surface emotion-0"
+  />
+</Card>
+`;

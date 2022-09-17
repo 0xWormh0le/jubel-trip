@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragHandle component should render as DragHandle 1`] = `
+.emotion-4 {
+  color: misc.muted;
+  background-color: secondary;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  cursor: col-resize;
+}
+
+.emotion-0 {
+  min-width: 24px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 24px;
+}
+
+<DragHandle
+  bg="secondary"
+  cursor="col-resize"
+  name="drag-vertical"
+  position="absolute"
+  px={0}
+  py={3}
+  right={0}
+  top="50%"
+  transform="translate(0,-50%)"
+>
+  <IconButton
+    bg="secondary"
+    className="emotion-5"
+    cursor="col-resize"
+    name="drag-vertical"
+    position="absolute"
+    px={0}
+    py={3}
+    right={0}
+    top="50%"
+    transform="translate(0,-50%)"
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="secondary"
+      border="none"
+      className="emotion-5"
+      color="misc.muted"
+      cursor="col-resize"
+      disabled={false}
+      display="flex"
+      flexDirection="column"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent="center"
+      nobr={true}
+      position="absolute"
+      px={0}
+      py={3}
+      right={0}
+      top="50%"
+      transform="translate(0,-50%)"
+    >
+      <button
+        className="emotion-4"
+        cursor="col-resize"
+        disabled={false}
+        transform="translate(0,-50%)"
+      >
+        <Icon
+          name="drag-vertical"
+          order={1}
+          size={24}
+        >
+          <Base
+            className="emotion-0"
+            name="drag-vertical"
+            order={1}
+            size={24}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="drag-vertical"
+                  order={1}
+                  size={24}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+      </button>
+    </Flex>
+  </IconButton>
+</DragHandle>
+`;
+
+exports[`DragHandle component simulates click events 1`] = `
+.emotion-4 {
+  color: misc.muted;
+  background-color: secondary;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  cursor: col-resize;
+}
+
+.emotion-0 {
+  min-width: 24px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 24px;
+}
+
+<DragHandle
+  bg="secondary"
+  cursor="col-resize"
+  name="drag-vertical"
+  onClick={[MockFunction]}
+  position="absolute"
+  px={0}
+  py={3}
+  right={0}
+  top="50%"
+  transform="translate(0,-50%)"
+>
+  <IconButton
+    bg="secondary"
+    className="emotion-5"
+    cursor="col-resize"
+    name="drag-vertical"
+    onClick={[MockFunction]}
+    position="absolute"
+    px={0}
+    py={3}
+    right={0}
+    top="50%"
+    transform="translate(0,-50%)"
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="secondary"
+      border="none"
+      className="emotion-5"
+      color="misc.muted"
+      cursor="col-resize"
+      disabled={false}
+      display="flex"
+      flexDirection="column"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent="center"
+      nobr={true}
+      onClick={[MockFunction]}
+      position="absolute"
+      px={0}
+      py={3}
+      right={0}
+      top="50%"
+      transform="translate(0,-50%)"
+    >
+      <button
+        className="emotion-4"
+        cursor="col-resize"
+        disabled={false}
+        onClick={[MockFunction]}
+        transform="translate(0,-50%)"
+      >
+        <Icon
+          name="drag-vertical"
+          order={1}
+          size={24}
+        >
+          <Base
+            className="emotion-0"
+            name="drag-vertical"
+            order={1}
+            size={24}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="drag-vertical"
+                  order={1}
+                  size={24}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+      </button>
+    </Flex>
+  </IconButton>
+</DragHandle>
+`;

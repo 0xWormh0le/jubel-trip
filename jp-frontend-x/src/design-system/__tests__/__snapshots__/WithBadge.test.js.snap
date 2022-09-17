@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithBadge component renders content with badge correctly 1`] = `
+<Relative
+  bagdeLabel="3"
+  position="relative"
+>
+  <div>
+    Content
+  </div>
+  <Absolute
+    0="r"
+    1="i"
+    2="g"
+    3="h"
+    4="t"
+    position="absolute"
+  >
+    <Badge
+      borderRadius="circle"
+      error={true}
+      fontSize={3}
+      letterSpacing="caps"
+      opacity={0.8}
+      px={1}
+      textAlign="center"
+      textTransform="uppercase"
+    />
+  </Absolute>
+</Relative>
+`;

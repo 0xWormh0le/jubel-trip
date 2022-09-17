@@ -1,0 +1,1110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThumbnailLink component should render as ThumbnailLink 1`] = `
+.emotion-6 {
+  width: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 125px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+  border-color: #bcbfca;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 0;
+}
+
+.emotion-5 {
+  color: white;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: none;
+  border-color: #bcbfca;
+  cursor: pointer;
+}
+
+.emotion-5:hover {
+  border-color: #abafbc;
+}
+
+.emotion-0 {
+  min-width: 64px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  border-color: #bcbfca;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 64px;
+}
+
+.emotion-4 {
+  background-color: transparent;
+  font-size: 0.64rem;
+  margin-top: 0.125rem;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  border-color: #bcbfca;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "baseFontSize": 16,
+      "borderWidths": Array [
+        "0rem",
+        "0.03125rem",
+        "0.0625rem",
+        "0.125rem",
+        "0.25rem",
+        "0.5rem",
+        "1rem",
+        "2rem",
+        "4rem",
+      ],
+      "borders": Array [
+        "0rem solid",
+        "0.03125rem solid",
+        "0.0625rem solid",
+        "0.125rem solid",
+        "0.25rem solid",
+        "0.5rem solid",
+        "1rem solid",
+        "2rem solid",
+        "4rem solid",
+      ],
+      "breakpoints": Array [
+        "40rem",
+        "52rem",
+        "64rem",
+        "80rem",
+        "104rem",
+        "128rem",
+      ],
+      "colors": Object {
+        "active": "#deebff",
+        "background": "#f5f6f8",
+        "border": "#bcbfca",
+        "danger": "#f66161",
+        "disabled": "transparent",
+        "error": "#f66161",
+        "info": "#69a5f1",
+        "lightBg": "#fcfcfc",
+        "misc": Object {
+          "branding": Object {
+            "styles": Object {
+              "an": Object {
+                "bg": "#64e5aa",
+                "border": "#24d886",
+                "disabled": Object {
+                  "bg": "rgba(100, 229, 170, 0.3)",
+                  "border": "rgba(100, 229, 170, 0.25)",
+                  "text": "#f5f6f8",
+                },
+                "text": "#ffffff",
+              },
+              "cn": Object {
+                "bg": "#a3f490",
+                "border": "#69ed4a",
+                "disabled": Object {
+                  "bg": "rgba(163, 244, 144, 0.3)",
+                  "border": "rgba(163, 244, 144, 0.25)",
+                  "text": "#f5f6f8",
+                },
+                "text": "#ffffff",
+              },
+              "cu": Object {
+                "bg": "#cea0f8",
+                "border": "#a959f3",
+                "disabled": Object {
+                  "bg": "rgba(206, 160, 248, 0.3)",
+                  "border": "rgba(206, 160, 248, 0.25)",
+                  "text": "#f5f6f8",
+                },
+                "text": "#ffffff",
+              },
+              "oc": Object {
+                "bg": "#69a6f1",
+                "border": "#237cea",
+                "disabled": Object {
+                  "bg": "rgba(105, 166, 241, 0.3)",
+                  "border": "rgba(105, 166, 241, 0.25)",
+                  "text": "#f5f6f8",
+                },
+                "text": "#ffffff",
+              },
+              "pp": Object {
+                "bg": "#f2690d",
+                "border": "#a94a09",
+                "disabled": Object {
+                  "bg": "rgba(242, 105, 13, 0.3)",
+                  "border": "rgba(242, 105, 13, 0.25)",
+                  "text": "#f5f6f8",
+                },
+                "text": "#ffffff",
+              },
+            },
+          },
+          "datePicker": Object {
+            "rangeEndDays": Object {
+              "bg": "#6a8ffe",
+              "color": "#ffffff",
+            },
+            "rangeInsideDays": Object {
+              "bg": "#9db5fe",
+              "color": "#ffffff",
+            },
+            "rangeOutsideDays": Object {
+              "bg": "#f5f6f8",
+              "color": "#464646",
+            },
+            "today": Object {
+              "bg": "#f5f6f8",
+              "color": "#bfc2d3",
+            },
+          },
+          "devOnly": Object {
+            "bg": "#efcb69",
+          },
+          "filter": Object {
+            "text": "#878c9e",
+          },
+          "map": Object {
+            "marker": Object {
+              "normal": "#252935",
+              "satellite": "#ffffff",
+            },
+            "on": Object {
+              "route": Object {
+                "normal": "#ffffff",
+                "satellite": "#252935",
+              },
+            },
+            "overlay": "rgba(109,187,255,.3)",
+            "route": Object {
+              "normal": "#252935",
+              "satellite": "#ffffff",
+            },
+          },
+          "muted": "#878c9e",
+          "outline": "rgba(0, 191, 255, 0.5)",
+          "overlay": Object {
+            "bg": "rgba(0, 0, 0, 0.4)",
+            "color": "#ffffff",
+          },
+          "reviews": Object {
+            "fullColor": "#f0cc69",
+          },
+          "search": Object {
+            "bg": "rgba(255, 255, 255, 0.7)",
+          },
+          "slider": Object {
+            "handle": "#878c9e",
+            "rail": "#dddfe8",
+            "shadow": 6,
+            "text": "#878c9e",
+            "track": "#a3a7b5",
+          },
+          "story": "#dddfe8",
+        },
+        "on": Object {
+          "active": "#252935",
+          "background": "#464646",
+          "border": "#ffffff",
+          "danger": "#ffffff",
+          "disabled": "#878c9e",
+          "error": "#ffffff",
+          "info": "#ffffff",
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "success": "#ffffff",
+          "surface": "#252935",
+          "warning": "#252935",
+        },
+        "primary": "#00b4fa",
+        "secondary": "#79cd7f",
+        "selects": Object {
+          "menuShadow": "rgba(0, 0, 0, 0.15)",
+          "optionFocusBg": "rgba(106, 143, 254, 0.07)",
+          "primaryColor": "#6a8ffe",
+          "tagBorder": "rgba(188, 191, 202, 0.4)",
+        },
+        "success": "#79cd7f",
+        "surface": "#ffffff",
+        "warning": "#efcb69",
+      },
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSizes": Array [
+        "0.328rem",
+        "0.41rem",
+        "0.512rem",
+        "0.64rem",
+        "0.8rem",
+        "1rem",
+        "1.25rem",
+        "1.563rem",
+        "1.953rem",
+        "2.441rem",
+        "3.052rem",
+      ],
+      "fontWeights": Object {
+        "100": 100,
+        "200": 200,
+        "300": 300,
+        "400": 400,
+        "500": 500,
+        "600": 600,
+        "700": 700,
+        "800": 800,
+        "900": 900,
+        "bold": "bold",
+        "normal": "normal",
+      },
+      "headingsFamily": "'Fjalla One', sans-serif",
+      "htmlFontScale": 100,
+      "icons": Object {
+        "add": [Function],
+        "airplane": [Function],
+        "arrow-back": [Function],
+        "arrow-down": [Function],
+        "arrow-drop-down": [Function],
+        "arrow-drop-up": [Function],
+        "arrow-forward": [Function],
+        "arrow-left": [Function],
+        "arrow-play": [Function],
+        "arrow-right": [Function],
+        "calendar": [Function],
+        "check": [Function],
+        "check-box": [Function],
+        "circle": [Function],
+        "circle-notch": [Function],
+        "clear": [Function],
+        "close": [Function],
+        "comment": [Function],
+        "compress": [Function],
+        "directions-run": [Function],
+        "directions-walk": [Function],
+        "dot": [Function],
+        "dots-vertical": [Function],
+        "drag-vertical": [Function],
+        "drive": [Function],
+        "empty-circle": [Function],
+        "expand": [Function],
+        "flag": [Function],
+        "full-circle": [Function],
+        "hotel": [Function],
+        "info": [Function],
+        "live-chat": [Function],
+        "map-marked": [Function],
+        "map-marker": [Function],
+        "map-regular": [Function],
+        "map-solid": [Function],
+        "menu": [Function],
+        "minus": [Function],
+        "my-trips": [Function],
+        "notifications": [Function],
+        "person-add": [Function],
+        "photo-camera": [Function],
+        "plus": [Function],
+        "prefs": [Function],
+        "question-circle": [Function],
+        "radio-button-checked": [Function],
+        "radio-button-unchecked": [Function],
+        "review-icon": [Function],
+        "scenery": [Function],
+        "search": [Function],
+        "share": [Function],
+        "star": [Function],
+        "star-border": [Function],
+        "stories": [Function],
+        "sunny": [Function],
+        "surprise-trips": [Function],
+        "toggle-off": [Function],
+        "toggle-on": [Function],
+        "transport-bike": [Function],
+        "transport-boat": [Function],
+        "transport-bus": [Function],
+        "transport-car": [Function],
+        "transport-flight": [Function],
+        "transport-subway": [Function],
+        "transport-taxi": [Function],
+        "transport-train": [Function],
+        "unchecked-box": [Function],
+        "unfold-less": [Function],
+        "unfold-more": [Function],
+        "user": [Function],
+        "window-maximum": [Function],
+        "window-restore": [Function],
+      },
+      "letterSpacings": Object {
+        "mega": "0.25em",
+        "normal": "normal",
+        "tight": "-0.05em",
+        "tracked": "0.1em",
+      },
+      "lineHeights": Object {
+        "copy": 1.5,
+        "double": 2,
+        "none": null,
+        "solid": 1.15,
+        "tight": 1,
+        "title": 1.25,
+      },
+      "maxWidths": Array [
+        "40rem",
+        "52rem",
+        "64rem",
+        "80rem",
+        "104rem",
+        "128rem",
+      ],
+      "palette": Object {
+        "allports": Object {
+          "_a": 1,
+          "_b": 156,
+          "_format": "hex",
+          "_g": 112,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#00709c",
+          "_r": 0,
+          "_roundA": 1,
+          "_tc_id": 0,
+        },
+        "aluminium": Object {
+          "_a": 1,
+          "_b": 188,
+          "_format": "hex",
+          "_g": 174,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#aaaebc",
+          "_r": 170,
+          "_roundA": 1,
+          "_tc_id": 1,
+        },
+        "an": Object {
+          "_a": 1,
+          "_b": 170,
+          "_format": "hex",
+          "_g": 229,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#64e5aa",
+          "_r": 100,
+          "_roundA": 1,
+          "_tc_id": 36,
+        },
+        "anakiwa": Object {
+          "_a": 1,
+          "_b": 254,
+          "_format": "hex",
+          "_g": 216,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#acd8fe",
+          "_r": 172,
+          "_roundA": 1,
+          "_tc_id": 32,
+        },
+        "athensGray": Object {
+          "_a": 1,
+          "_b": 248,
+          "_format": "hex",
+          "_g": 246,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#f5f6f8",
+          "_r": 245,
+          "_roundA": 1,
+          "_tc_id": 2,
+        },
+        "black": Object {
+          "_a": 1,
+          "_b": 0,
+          "_format": "hex",
+          "_g": 0,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#000000",
+          "_r": 0,
+          "_roundA": 1,
+          "_tc_id": 3,
+        },
+        "buff": Object {
+          "_a": 1,
+          "_b": 133,
+          "_format": "hex",
+          "_g": 222,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#f1de85",
+          "_r": 241,
+          "_roundA": 1,
+          "_tc_id": 4,
+        },
+        "carnationRed": Object {
+          "_a": 1,
+          "_b": 97,
+          "_format": "hex",
+          "_g": 97,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#f66161",
+          "_r": 246,
+          "_roundA": 1,
+          "_tc_id": 5,
+        },
+        "cerulean": Object {
+          "_a": 1,
+          "_b": 250,
+          "_format": "hex",
+          "_g": 180,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#00b4fa",
+          "_r": 0,
+          "_roundA": 1,
+          "_tc_id": 17,
+        },
+        "cn": Object {
+          "_a": 1,
+          "_b": 144,
+          "_format": "hex",
+          "_g": 244,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#a3f490",
+          "_r": 163,
+          "_roundA": 1,
+          "_tc_id": 37,
+        },
+        "cornflowerBlue": Object {
+          "_a": 1,
+          "_b": 241,
+          "_format": "hex",
+          "_g": 165,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#69a5f1",
+          "_r": 105,
+          "_roundA": 1,
+          "_tc_id": 6,
+        },
+        "cu": Object {
+          "_a": 1,
+          "_b": 248,
+          "_format": "hex",
+          "_g": 160,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#cea0f8",
+          "_r": 206,
+          "_roundA": 1,
+          "_tc_id": 38,
+        },
+        "deYork": Object {
+          "_a": 1,
+          "_b": 127,
+          "_format": "hex",
+          "_g": 205,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#79cd7f",
+          "_r": 121,
+          "_roundA": 1,
+          "_tc_id": 7,
+        },
+        "doveGray": Object {
+          "_a": 1,
+          "_b": 99,
+          "_format": "hex",
+          "_g": 99,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#636363",
+          "_r": 99,
+          "_roundA": 1,
+          "_tc_id": 8,
+        },
+        "ebonyClay": Object {
+          "_a": 1,
+          "_b": 53,
+          "_format": "hex",
+          "_g": 41,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#252935",
+          "_r": 37,
+          "_roundA": 1,
+          "_tc_id": 9,
+        },
+        "frenchGray": Object {
+          "_a": 1,
+          "_b": 202,
+          "_format": "hex",
+          "_g": 191,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#bcbfca",
+          "_r": 188,
+          "_roundA": 1,
+          "_tc_id": 10,
+        },
+        "goldenSand": Object {
+          "_a": 1,
+          "_b": 105,
+          "_format": "hex",
+          "_g": 204,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#f0cc69",
+          "_r": 240,
+          "_roundA": 1,
+          "_tc_id": 33,
+        },
+        "gunsmoke": Object {
+          "_a": 1,
+          "_b": 141,
+          "_format": "hex",
+          "_g": 141,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#8a8d8d",
+          "_r": 138,
+          "_roundA": 1,
+          "_tc_id": 11,
+        },
+        "hawkesBlue": Object {
+          "_a": 1,
+          "_b": 252,
+          "_format": "hex",
+          "_g": 226,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#d4e2fc",
+          "_r": 212,
+          "_roundA": 1,
+          "_tc_id": 12,
+        },
+        "lightGreen": Object {
+          "_a": 1,
+          "_b": 143,
+          "_format": "hex",
+          "_g": 244,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#a2f48f",
+          "_r": 162,
+          "_roundA": 1,
+          "_tc_id": 13,
+        },
+        "linkWater": Object {
+          "_a": 1,
+          "_b": 227,
+          "_format": "hex",
+          "_g": 219,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#d9dbe3",
+          "_r": 217,
+          "_roundA": 1,
+          "_tc_id": 14,
+        },
+        "lochmara": Object {
+          "_a": 1,
+          "_b": 194,
+          "_format": "hex",
+          "_g": 139,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#008bc2",
+          "_r": 0,
+          "_roundA": 1,
+          "_tc_id": 15,
+        },
+        "malibu": Object {
+          "_a": 1,
+          "_b": 254,
+          "_format": "hex",
+          "_g": 143,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#6a8ffe",
+          "_r": 106,
+          "_roundA": 1,
+          "_tc_id": 16,
+        },
+        "manatee": Object {
+          "_a": 1,
+          "_b": 158,
+          "_format": "hex",
+          "_g": 140,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#878c9e",
+          "_r": 135,
+          "_roundA": 1,
+          "_tc_id": 18,
+        },
+        "mauve": Object {
+          "_a": 1,
+          "_b": 248,
+          "_format": "hex",
+          "_g": 159,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#cd9ff8",
+          "_r": 205,
+          "_roundA": 1,
+          "_tc_id": 19,
+        },
+        "milanoRed": Object {
+          "_a": 1,
+          "_b": 0,
+          "_format": "hex",
+          "_g": 34,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#cc2200",
+          "_r": 204,
+          "_roundA": 1,
+          "_tc_id": 20,
+        },
+        "mischka": Object {
+          "_a": 1,
+          "_b": 232,
+          "_format": "hex",
+          "_g": 223,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#dddfe8",
+          "_r": 221,
+          "_roundA": 1,
+          "_tc_id": 21,
+        },
+        "nobel": Object {
+          "_a": 1,
+          "_b": 183,
+          "_format": "hex",
+          "_g": 183,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#b7b7b7",
+          "_r": 183,
+          "_roundA": 1,
+          "_tc_id": 22,
+        },
+        "oc": Object {
+          "_a": 1,
+          "_b": 241,
+          "_format": "hex",
+          "_g": 166,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#69a6f1",
+          "_r": 105,
+          "_roundA": 1,
+          "_tc_id": 35,
+        },
+        "pp": Object {
+          "_a": 1,
+          "_b": 13,
+          "_format": "hex",
+          "_g": 105,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#f2690d",
+          "_r": 242,
+          "_roundA": 1,
+          "_tc_id": 39,
+        },
+        "reactSelectBlue": Object {
+          "_a": 1,
+          "_b": 255,
+          "_format": "hex",
+          "_g": 235,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#deebff",
+          "_r": 222,
+          "_roundA": 1,
+          "_tc_id": 40,
+        },
+        "riverBed": Object {
+          "_a": 1,
+          "_b": 92,
+          "_format": "hex",
+          "_g": 71,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#40475c",
+          "_r": 64,
+          "_roundA": 1,
+          "_tc_id": 23,
+        },
+        "robRoy": Object {
+          "_a": 1,
+          "_b": 105,
+          "_format": "hex",
+          "_g": 203,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#efcb69",
+          "_r": 239,
+          "_roundA": 1,
+          "_tc_id": 24,
+        },
+        "santasGray": Object {
+          "_a": 1,
+          "_b": 164,
+          "_format": "hex",
+          "_g": 158,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#9d9ea4",
+          "_r": 157,
+          "_roundA": 1,
+          "_tc_id": 25,
+        },
+        "shamrock": Object {
+          "_a": 1,
+          "_b": 133,
+          "_format": "hex",
+          "_g": 223,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#49df85",
+          "_r": 73,
+          "_roundA": 1,
+          "_tc_id": 26,
+        },
+        "snow": Object {
+          "_a": 1,
+          "_b": 252,
+          "_format": "hex",
+          "_g": 252,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#fcfcfc",
+          "_r": 252,
+          "_roundA": 1,
+          "_tc_id": 34,
+        },
+        "stratos": Object {
+          "_a": 1,
+          "_b": 69,
+          "_format": "hex",
+          "_g": 14,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#000e45",
+          "_r": 0,
+          "_roundA": 1,
+          "_tc_id": 27,
+        },
+        "tundora": Object {
+          "_a": 1,
+          "_b": 70,
+          "_format": "hex",
+          "_g": 70,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#464646",
+          "_r": 70,
+          "_roundA": 1,
+          "_tc_id": 28,
+        },
+        "turquoise": Object {
+          "_a": 1,
+          "_b": 169,
+          "_format": "hex",
+          "_g": 228,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#64e4a9",
+          "_r": 100,
+          "_roundA": 1,
+          "_tc_id": 29,
+        },
+        "waterloo": Object {
+          "_a": 1,
+          "_b": 139,
+          "_format": "hex",
+          "_g": 126,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#7c7e8b",
+          "_r": 124,
+          "_roundA": 1,
+          "_tc_id": 30,
+        },
+        "white": Object {
+          "_a": 1,
+          "_b": 255,
+          "_format": "hex",
+          "_g": 255,
+          "_gradientType": undefined,
+          "_ok": true,
+          "_originalInput": "#ffffff",
+          "_r": 255,
+          "_roundA": 1,
+          "_tc_id": 31,
+        },
+      },
+      "radii": Object {
+        "bottom": Object {
+          "lg": "0 0 1rem 1rem",
+          "md": "0 0 0.5rem 0.5rem",
+          "sm": "0 0 0.25rem 0.25rem",
+          "xs": "0 0 0.125rem 0.125rem",
+        },
+        "circle": "100%",
+        "left": Object {
+          "lg": "1rem 0 0 1rem",
+          "md": "0.5rem 0 0 0.5rem",
+          "sm": "0.25rem 0 0 0.25rem",
+          "xs": "0.125rem 0 0 0.125rem",
+        },
+        "lg": "1rem",
+        "md": "0.5rem",
+        "none": 0,
+        "pill": "9999px",
+        "right": Object {
+          "lg": "0 1rem 1rem 0",
+          "md": "0 0.5rem 0.5rem 0",
+          "sm": "0 0.25rem 0.25rem 0",
+          "xs": "0 0.125rem 0.125rem 0",
+        },
+        "sm": "0.25rem",
+        "top": Object {
+          "lg": "1rem 1rem 0 0",
+          "md": "0.5rem 0.5rem 0 0",
+          "sm": "0.25rem 0.25rem 0 0",
+          "xs": "0.125rem 0.125rem 0 0",
+        },
+        "xs": "0.125rem",
+      },
+      "shadows": Array [
+        "none",
+        "0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
+        "0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12)",
+        "0px 1px 8px 0px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 3px 3px -2px rgba(0, 0, 0, 0.12)",
+        "0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12)",
+        "0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 5px 8px 0px rgba(0, 0, 0, 0.14),0px 1px 14px 0px rgba(0, 0, 0, 0.12)",
+        "0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12)",
+        "0px 4px 5px -2px rgba(0, 0, 0, 0.2),0px 7px 10px 1px rgba(0, 0, 0, 0.14),0px 2px 16px 1px rgba(0, 0, 0, 0.12)",
+        "0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12)",
+        "0px 5px 6px -3px rgba(0, 0, 0, 0.2),0px 9px 12px 1px rgba(0, 0, 0, 0.14),0px 3px 16px 2px rgba(0, 0, 0, 0.12)",
+        "0px 6px 6px -3px rgba(0, 0, 0, 0.2),0px 10px 14px 1px rgba(0, 0, 0, 0.14),0px 4px 18px 3px rgba(0, 0, 0, 0.12)",
+        "0px 6px 7px -4px rgba(0, 0, 0, 0.2),0px 11px 15px 1px rgba(0, 0, 0, 0.14),0px 4px 20px 3px rgba(0, 0, 0, 0.12)",
+        "0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12)",
+        "0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 13px 19px 2px rgba(0, 0, 0, 0.14),0px 5px 24px 4px rgba(0, 0, 0, 0.12)",
+        "0px 7px 9px -4px rgba(0, 0, 0, 0.2),0px 14px 21px 2px rgba(0, 0, 0, 0.14),0px 5px 26px 4px rgba(0, 0, 0, 0.12)",
+        "0px 8px 9px -5px rgba(0, 0, 0, 0.2),0px 15px 22px 2px rgba(0, 0, 0, 0.14),0px 6px 28px 5px rgba(0, 0, 0, 0.12)",
+        "0px 8px 10px -5px rgba(0, 0, 0, 0.2),0px 16px 24px 2px rgba(0, 0, 0, 0.14),0px 6px 30px 5px rgba(0, 0, 0, 0.12)",
+        "0px 8px 11px -5px rgba(0, 0, 0, 0.2),0px 17px 26px 2px rgba(0, 0, 0, 0.14),0px 6px 32px 5px rgba(0, 0, 0, 0.12)",
+        "0px 9px 11px -5px rgba(0, 0, 0, 0.2),0px 18px 28px 2px rgba(0, 0, 0, 0.14),0px 7px 34px 6px rgba(0, 0, 0, 0.12)",
+        "0px 9px 12px -6px rgba(0, 0, 0, 0.2),0px 19px 29px 2px rgba(0, 0, 0, 0.14),0px 7px 36px 6px rgba(0, 0, 0, 0.12)",
+        "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 20px 31px 3px rgba(0, 0, 0, 0.14),0px 8px 38px 7px rgba(0, 0, 0, 0.12)",
+        "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12)",
+        "0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12)",
+        "0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12)",
+        "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)",
+      ],
+      "space": Array [
+        "0rem",
+        "0.125rem",
+        "0.375rem",
+        "0.75rem",
+        "1.5rem",
+        "3rem",
+        "6rem",
+        "12rem",
+        "24rem",
+      ],
+      "textStyles": Object {
+        "capitalize": Object {
+          "textTransform": "capitalize",
+        },
+        "lowercase": Object {
+          "textTransform": "lowercase",
+        },
+        "truncate": Object {
+          "overflow": "hidden",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "nowrap",
+        },
+        "uppercase": Object {
+          "textTransform": "uppercase",
+        },
+      },
+    }
+  }
+>
+  <ThumbnailLink
+    goTo="/travel-style/oc"
+    height={125}
+    image="https://source.unsplash.com/random"
+    label="Oceanist"
+    width={200}
+  >
+    <FlexPanel
+      backgroundImage="url(https://source.unsplash.com/random)"
+      backgroundRepeat="none"
+      backgroundSize="cover"
+      borderRadius="sm"
+      boxShadow={2}
+      centered={true}
+      display="flex"
+      flex={1}
+      flexDirection="column"
+      goTo="/travel-style/oc"
+      height={125}
+      width={200}
+    >
+      <div
+        className="emotion-6"
+      >
+        <IconButton
+          bg="transparent"
+          color="white"
+          label="Oceanist"
+          labelPosition="bottom"
+          name="arrow-play"
+          size={64}
+        >
+          <Flex
+            alignItems="center"
+            as="button"
+            bg="transparent"
+            border="none"
+            color="white"
+            disabled={false}
+            display="flex"
+            flexDirection="column"
+            flexWrap="nowrap"
+            hoverable={true}
+            justifyContent={false}
+            nobr={true}
+          >
+            <button
+              className="emotion-5"
+              disabled={false}
+            >
+              <Icon
+                name="arrow-play"
+                order={1}
+                size={64}
+              >
+                <Base
+                  className="emotion-0"
+                  name="arrow-play"
+                  order={1}
+                  size={64}
+                >
+                  <Flex
+                    centered={true}
+                    className="emotion-0"
+                    display="flex"
+                    order={1}
+                  >
+                    <div
+                      className="emotion-1"
+                    >
+                      <svg
+                        className="emotion-0"
+                        name="arrow-play"
+                        order={1}
+                        size={64}
+                      />
+                    </div>
+                  </Flex>
+                </Base>
+              </Icon>
+              <Text
+                bg="transparent"
+                bold={true}
+                disabled={false}
+                fontSize={3}
+                mb={false}
+                ml={false}
+                mr={false}
+                mt={1}
+                nobr={true}
+                order={2}
+                truncate={true}
+                uppercase={true}
+              >
+                <div
+                  className="emotion-4"
+                  disabled={false}
+                >
+                  Oceanist
+                </div>
+              </Text>
+            </button>
+          </Flex>
+        </IconButton>
+      </div>
+    </FlexPanel>
+  </ThumbnailLink>
+</ThemeProvider>
+`;

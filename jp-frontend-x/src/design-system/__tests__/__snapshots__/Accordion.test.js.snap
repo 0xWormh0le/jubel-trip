@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion component renders accordion correctly 1`] = `
+.emotion-20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 2px;
+  border-color: selects.tagBorder;
+}
+
+.emotion-5 {
+  padding-left: 32px;
+  padding-right: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.emotion-1 {
+  min-width: 16px;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 16px;
+}
+
+.emotion-7 {
+  overflow-y: auto;
+}
+
+.emotion-6 {
+  padding: 32px;
+}
+
+<Accordion
+  name="Accordion"
+  onSectionToggle={[Function]}
+  openedSection="section2"
+>
+  <FlexPanel
+    display="flex"
+    flexDirection="column"
+  >
+    <div
+      className="emotion-20"
+    >
+      <AccordionSection
+        animated={true}
+        key=".0"
+        name="section1"
+        onSectionToggle={[Function]}
+        open={false}
+      >
+        <Flex
+          borderBottom={2}
+          borderColor="selects.tagBorder"
+          disabled={false}
+          display="flex"
+          flexDirection="column"
+          name="section1"
+          open={false}
+        >
+          <div
+            className="emotion-9"
+            disabled={false}
+            name="section1"
+            open={false}
+          >
+            <AccordionHeading
+              disabled={false}
+              key="0"
+              onClick={[Function]}
+              open={false}
+              visibleWhen="collapsed"
+            >
+              <Flex
+                alignItems="center"
+                display="flex"
+                hoverable={true}
+                justifyContent="space-between"
+                onClick={[Function]}
+                pl={4}
+                pr={3}
+              >
+                <div
+                  className="emotion-5"
+                  onClick={[Function]}
+                >
+                  <Heading6
+                    as="h6"
+                    className="heading"
+                    fontWeight="normal"
+                    pr={3}
+                    py={3}
+                    uppercase={true}
+                  >
+                    <h6
+                      className="heading emotion-0"
+                    >
+                      Collapsed Heading 1
+                    </h6>
+                  </Heading6>
+                  <Icon
+                    name="plus"
+                    size={16}
+                  >
+                    <Base
+                      className="emotion-1"
+                      name="plus"
+                      size={16}
+                    >
+                      <Flex
+                        centered={true}
+                        className="emotion-1"
+                        display="flex"
+                      >
+                        <div
+                          className="emotion-2"
+                        >
+                          <svg
+                            className="emotion-1"
+                            name="plus"
+                            size={16}
+                          />
+                        </div>
+                      </Flex>
+                    </Base>
+                  </Icon>
+                </div>
+              </Flex>
+            </AccordionHeading>
+            <AccordionHeading
+              disabled={false}
+              key="1"
+              onClick={[Function]}
+              open={false}
+              visibleWhen="expanded"
+            />
+            <AccordionContent
+              animated={true}
+              key="2"
+              open={false}
+            >
+              <Styled(Component)
+                style={
+                  Object {
+                    "height": AnimatedValue {
+                      "animatedStyles": Set {},
+                      "children": Array [
+                        AnimatedStyle {
+                          "attach": [Function],
+                          "children": Array [
+                            AnimatedProps {
+                              "attach": [Function],
+                              "children": Array [],
+                              "detach": [Function],
+                              "payload": Object {
+                                "children": <ForwardRef(render)
+                                  p={4}
+                                >
+                                  Accordion Content 2
+                                </ForwardRef(render)>,
+                                "className": "emotion-7",
+                                "style": [Circular],
+                              },
+                              "update": [Function],
+                            },
+                          ],
+                          "detach": [Function],
+                          "payload": [Circular],
+                        },
+                      ],
+                      "done": false,
+                      "lastPosition": 600,
+                      "lastTime": undefined,
+                      "lastVelocity": undefined,
+                      "payload": undefined,
+                      "setValue": [Function],
+                      "startPosition": 600,
+                      "startTime": 1479427200000,
+                      "value": 600,
+                    },
+                  }
+                }
+              >
+                <ForwardRef
+                  className="emotion-7"
+                  style={
+                    Object {
+                      "height": AnimatedValue {
+                        "animatedStyles": Set {},
+                        "children": Array [
+                          AnimatedStyle {
+                            "attach": [Function],
+                            "children": Array [
+                              AnimatedProps {
+                                "attach": [Function],
+                                "children": Array [],
+                                "detach": [Function],
+                                "payload": Object {
+                                  "children": <ForwardRef(render)
+                                    p={4}
+                                  >
+                                    Accordion Content 2
+                                  </ForwardRef(render)>,
+                                  "className": "emotion-7",
+                                  "style": [Circular],
+                                },
+                                "update": [Function],
+                              },
+                            ],
+                            "detach": [Function],
+                            "payload": [Circular],
+                          },
+                        ],
+                        "done": false,
+                        "lastPosition": 600,
+                        "lastTime": undefined,
+                        "lastVelocity": undefined,
+                        "payload": undefined,
+                        "setValue": [Function],
+                        "startPosition": 600,
+                        "startTime": 1479427200000,
+                        "value": 600,
+                      },
+                    }
+                  }
+                >
+                  <div
+                    className="emotion-7"
+                    style={
+                      Object {
+                        "height": 600,
+                      }
+                    }
+                  >
+                    <Box
+                      p={4}
+                    >
+                      <div
+                        className="emotion-6"
+                      >
+                        Accordion Content 2
+                      </div>
+                    </Box>
+                  </div>
+                </ForwardRef>
+              </Styled(Component)>
+            </AccordionContent>
+          </div>
+        </Flex>
+      </AccordionSection>
+      <AccordionSection
+        animated={true}
+        key=".1"
+        name="section2"
+        onSectionToggle={[Function]}
+        open={true}
+      >
+        <Flex
+          borderBottom={2}
+          borderColor="selects.tagBorder"
+          disabled={false}
+          display="flex"
+          flexDirection="column"
+          name="section2"
+          open={true}
+        >
+          <div
+            className="emotion-9"
+            disabled={false}
+            name="section2"
+            open={true}
+          >
+            <AccordionHeading
+              disabled={false}
+              key="0"
+              onClick={[Function]}
+              open={true}
+              visibleWhen="collapsed"
+            />
+            <AccordionHeading
+              disabled={false}
+              key="1"
+              onClick={[Function]}
+              open={true}
+              visibleWhen="expanded"
+            >
+              <Flex
+                alignItems="center"
+                display="flex"
+                hoverable={true}
+                justifyContent="space-between"
+                onClick={[Function]}
+                pl={4}
+                pr={3}
+              >
+                <div
+                  className="emotion-5"
+                  onClick={[Function]}
+                >
+                  <Heading6
+                    as="h6"
+                    className="heading"
+                    fontWeight="normal"
+                    pr={3}
+                    py={3}
+                    uppercase={true}
+                  >
+                    <h6
+                      className="heading emotion-0"
+                    >
+                      Expanded Heading 2
+                    </h6>
+                  </Heading6>
+                  <Icon
+                    name="minus"
+                    size={16}
+                  >
+                    <Base
+                      className="emotion-1"
+                      name="minus"
+                      size={16}
+                    >
+                      <Flex
+                        centered={true}
+                        className="emotion-1"
+                        display="flex"
+                      >
+                        <div
+                          className="emotion-2"
+                        >
+                          <svg
+                            className="emotion-1"
+                            name="minus"
+                            size={16}
+                          />
+                        </div>
+                      </Flex>
+                    </Base>
+                  </Icon>
+                </div>
+              </Flex>
+            </AccordionHeading>
+            <AccordionContent
+              animated={true}
+              key="2"
+              open={true}
+            >
+              <Styled(Component)
+                style={
+                  Object {
+                    "height": AnimatedValue {
+                      "animatedStyles": Set {},
+                      "children": Array [
+                        AnimatedStyle {
+                          "attach": [Function],
+                          "children": Array [
+                            AnimatedProps {
+                              "attach": [Function],
+                              "children": Array [],
+                              "detach": [Function],
+                              "payload": Object {
+                                "children": <ForwardRef(render)
+                                  p={4}
+                                >
+                                  Accordion Content 2
+                                </ForwardRef(render)>,
+                                "className": "emotion-7",
+                                "style": [Circular],
+                              },
+                              "update": [Function],
+                            },
+                          ],
+                          "detach": [Function],
+                          "payload": [Circular],
+                        },
+                      ],
+                      "done": false,
+                      "lastPosition": 0,
+                      "lastTime": undefined,
+                      "lastVelocity": undefined,
+                      "payload": undefined,
+                      "setValue": [Function],
+                      "startPosition": 0,
+                      "startTime": 1479427200000,
+                      "value": 0,
+                    },
+                  }
+                }
+              >
+                <ForwardRef
+                  className="emotion-7"
+                  style={
+                    Object {
+                      "height": AnimatedValue {
+                        "animatedStyles": Set {},
+                        "children": Array [
+                          AnimatedStyle {
+                            "attach": [Function],
+                            "children": Array [
+                              AnimatedProps {
+                                "attach": [Function],
+                                "children": Array [],
+                                "detach": [Function],
+                                "payload": Object {
+                                  "children": <ForwardRef(render)
+                                    p={4}
+                                  >
+                                    Accordion Content 2
+                                  </ForwardRef(render)>,
+                                  "className": "emotion-7",
+                                  "style": [Circular],
+                                },
+                                "update": [Function],
+                              },
+                            ],
+                            "detach": [Function],
+                            "payload": [Circular],
+                          },
+                        ],
+                        "done": false,
+                        "lastPosition": 0,
+                        "lastTime": undefined,
+                        "lastVelocity": undefined,
+                        "payload": undefined,
+                        "setValue": [Function],
+                        "startPosition": 0,
+                        "startTime": 1479427200000,
+                        "value": 0,
+                      },
+                    }
+                  }
+                >
+                  <div
+                    className="emotion-7"
+                    style={
+                      Object {
+                        "height": 0,
+                      }
+                    }
+                  >
+                    <Box
+                      p={4}
+                    >
+                      <div
+                        className="emotion-6"
+                      >
+                        Accordion Content 2
+                      </div>
+                    </Box>
+                  </div>
+                </ForwardRef>
+              </Styled(Component)>
+            </AccordionContent>
+          </div>
+        </Flex>
+      </AccordionSection>
+    </div>
+  </FlexPanel>
+</Accordion>
+`;

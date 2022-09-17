@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryProfilePanel component renders correctly 1`] = `
+<SlidingPanel
+  closeType="none"
+  id="country-profile"
+  maxWidth={600}
+  onToggle={[Function]}
+  open={true}
+>
+  <FlexPanel
+    alignContent="flex-start"
+    bg="background"
+    borderLeft={1}
+    display="flex"
+    flex={1}
+    flexDirection="column"
+    width={600}
+  >
+    <FlexPanel
+      bg="surface"
+      display="flex"
+      flexDirection="column"
+      fontSize={4}
+    >
+      <IconButton
+        bg="surface"
+        labelColor="on.background"
+        labelFontSize={5}
+        labelMl={2}
+        mb={1}
+        name="arrow-back"
+        onClick={[Function]}
+        p={3}
+      >
+        Countries Visited
+      </IconButton>
+      <withI18nextTranslation(Tabs)
+        shouldTranslate={false}
+        tabs={
+          TabsState {
+            "_tabs": Array [
+              Object {
+                "id": "JP",
+                "name": "Japan",
+              },
+              Object {
+                "id": "TH",
+                "name": "Thailand",
+              },
+            ],
+            "activeTab": "TH",
+          }
+        }
+      />
+    </FlexPanel>
+    <withI18nextTranslation(inject-CountryProfile)
+      countryCode="TH"
+    />
+  </FlexPanel>
+</SlidingPanel>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryProfile component renders correctly 1`] = `
+<FlexPanel
+  bg="background"
+  display="flex"
+  flex={1}
+  flexDirection="column"
+  fontSize={4}
+>
+  <TextContent
+    py={0}
+    text="Japan is distinct - no culture has charmed the world quite like Japanese culture."
+  />
+</FlexPanel>
+`;

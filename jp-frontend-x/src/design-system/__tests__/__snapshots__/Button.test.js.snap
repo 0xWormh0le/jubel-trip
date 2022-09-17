@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders active button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  active={true}
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  minWidth={100}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+  >
+    Active
+  </button>
+</Button>
+`;
+
+exports[`Button component renders default button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  minWidth={100}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+  >
+    Click Me
+  </button>
+</Button>
+`;
+
+exports[`Button component renders error button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  error={true}
+  hoverable={true}
+  minWidth={100}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+  >
+    Error
+  </button>
+</Button>
+`;
+
+exports[`Button component renders info button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  info={true}
+  minWidth={100}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+  >
+    Info
+  </button>
+</Button>
+`;
+
+exports[`Button component renders info button correctly 2`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  info={true}
+  minWidth={100}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+  >
+    Info
+  </button>
+</Button>
+`;
+
+exports[`Button component renders primary button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  minWidth={100}
+  primary={true}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+  >
+    Primary
+  </button>
+</Button>
+`;
+
+exports[`Button component renders secondary button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  minWidth={100}
+  px={2}
+  py={1}
+  secondary={true}
+>
+  <button
+    className="emotion-0"
+  >
+    Secondary
+  </button>
+</Button>
+`;
+
+exports[`Button component renders warning button correctly 1`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  display="inline-block"
+  hoverable={true}
+  minWidth={100}
+  px={2}
+  py={1}
+  warning={true}
+>
+  <button
+    className="emotion-0"
+  >
+    Warning
+  </button>
+</Button>
+`;
+
+exports[`Button component renders warning button correctly 2`] = `
+.emotion-0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  min-width: 100px;
+  border: 1px;
+  border-radius: sm;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<Button
+  as="button"
+  border={1}
+  borderRadius="sm"
+  disabled={true}
+  display="inline-block"
+  hoverable={true}
+  minWidth={100}
+  px={2}
+  py={1}
+>
+  <button
+    className="emotion-0"
+    disabled={true}
+  >
+    Disabled
+  </button>
+</Button>
+`;

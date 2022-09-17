@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField component should render as FormField correctly 1`] = `
+.emotion-2 {
+  margin-top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 {
+  background-color: surface;
+  margin-left: 0;
+  padding: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 0;
+  border-radius: sm;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+<FormField
+  boxShadow={false}
+  homeSearch={false}
+  onChange={[Function]}
+>
+  <Box>
+    <div
+      className="emotion-3"
+    >
+      <Flex
+        alignItems="center"
+        display="flex"
+        mt={0}
+        width={1}
+      >
+        <div
+          className="emotion-2"
+        >
+          <Flex
+            alignItems="center"
+            display="flex"
+            width="100%"
+          >
+            <div
+              className="emotion-1"
+            >
+              <ForwardRef
+                aria-label={null}
+                border={0}
+                boxShadow={null}
+                id="idFiled"
+                is="input"
+                ml={0}
+                name="fieldName"
+                onChange={[Function]}
+                pb={2}
+                pl={3}
+                pt={2}
+                py={3}
+                transition="padding-top 0.1s, padding-bottom 0.1s"
+                type="input"
+                width={1}
+              >
+                <Input
+                  aria-label={null}
+                  as="input"
+                  autoFocus={false}
+                  bg="surface"
+                  border={0}
+                  borderRadius="sm"
+                  boxShadow={null}
+                  flex={1}
+                  id="idFiled"
+                  is="input"
+                  ml={0}
+                  name="fieldName"
+                  onChange={[Function]}
+                  p={2}
+                  pb={2}
+                  pl={3}
+                  pt={2}
+                  py={3}
+                  transition="padding-top 0.1s, padding-bottom 0.1s"
+                  type="input"
+                  value=""
+                  width={1}
+                >
+                  <input
+                    aria-label={null}
+                    autoFocus={false}
+                    className="emotion-0"
+                    id="idFiled"
+                    name="fieldName"
+                    onChange={[Function]}
+                    type="input"
+                    value=""
+                  />
+                </Input>
+              </ForwardRef>
+            </div>
+          </Flex>
+        </div>
+      </Flex>
+    </div>
+  </Box>
+</FormField>
+`;

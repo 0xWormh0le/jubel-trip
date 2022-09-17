@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component should render image without crashing 1`] = `
+.emotion-0 {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+<Image
+  as="img"
+  display="inline-block"
+  height="auto"
+  maxWidth="100%"
+  src="https://source.unsplash.com/random"
+>
+  <img
+    className="emotion-0"
+    src="https://source.unsplash.com/random"
+  />
+</Image>
+`;

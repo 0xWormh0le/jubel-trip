@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloseButton component should render as CloseButton 1`] = `
+.emotion-4 {
+  color: misc.muted;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 24px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 24px;
+}
+
+<CloseButton
+  color="misc.muted"
+  name="close"
+  position="absolute"
+  right="0.5rem"
+  top="0.5rem"
+>
+  <IconButton
+    className="emotion-5"
+    color="misc.muted"
+    name="close"
+    position="absolute"
+    right="0.5rem"
+    top="0.5rem"
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="transparent"
+      border="none"
+      className="emotion-5"
+      color="misc.muted"
+      disabled={false}
+      display="flex"
+      flexDirection="column"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent="center"
+      nobr={true}
+      position="absolute"
+      right="0.5rem"
+      top="0.5rem"
+    >
+      <button
+        className="emotion-4"
+        disabled={false}
+      >
+        <Icon
+          name="close"
+          order={1}
+          size={24}
+        >
+          <Base
+            className="emotion-0"
+            name="close"
+            order={1}
+            size={24}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="close"
+                  order={1}
+                  size={24}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+      </button>
+    </Flex>
+  </IconButton>
+</CloseButton>
+`;
+
+exports[`CloseButton component should render disabled CloseButton 1`] = `
+.emotion-4 {
+  color: misc.muted;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 24px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 24px;
+}
+
+<CloseButton
+  color="misc.muted"
+  disabled={true}
+  name="close"
+  position="absolute"
+  right="0.5rem"
+  top="0.5rem"
+>
+  <IconButton
+    className="emotion-5"
+    color="misc.muted"
+    disabled={true}
+    name="close"
+    position="absolute"
+    right="0.5rem"
+    top="0.5rem"
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="transparent"
+      border="none"
+      className="emotion-5"
+      color="misc.muted"
+      disabled={true}
+      display="flex"
+      flexDirection="column"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent="center"
+      nobr={true}
+      position="absolute"
+      right="0.5rem"
+      top="0.5rem"
+    >
+      <button
+        className="emotion-4"
+        disabled={true}
+      >
+        <Icon
+          name="close"
+          order={1}
+          size={24}
+        >
+          <Base
+            className="emotion-0"
+            name="close"
+            order={1}
+            size={24}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="close"
+                  order={1}
+                  size={24}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+      </button>
+    </Flex>
+  </IconButton>
+</CloseButton>
+`;
+
+exports[`CloseButton component simulates click events 1`] = `
+.emotion-4 {
+  color: misc.muted;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.emotion-0 {
+  min-width: 24px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 24px;
+}
+
+<CloseButton
+  color="misc.muted"
+  name="close"
+  onClick={[Function]}
+  position="absolute"
+  right="0.5rem"
+  top="0.5rem"
+>
+  <IconButton
+    className="emotion-5"
+    color="misc.muted"
+    name="close"
+    onClick={[Function]}
+    position="absolute"
+    right="0.5rem"
+    top="0.5rem"
+  >
+    <Flex
+      alignItems="center"
+      as="button"
+      bg="transparent"
+      border="none"
+      className="emotion-5"
+      color="misc.muted"
+      disabled={false}
+      display="flex"
+      flexDirection="column"
+      flexWrap="nowrap"
+      hoverable={true}
+      justifyContent="center"
+      nobr={true}
+      onClick={[Function]}
+      position="absolute"
+      right="0.5rem"
+      top="0.5rem"
+    >
+      <button
+        className="emotion-4"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <Icon
+          name="close"
+          order={1}
+          size={24}
+        >
+          <Base
+            className="emotion-0"
+            name="close"
+            order={1}
+            size={24}
+          >
+            <Flex
+              centered={true}
+              className="emotion-0"
+              display="flex"
+              order={1}
+            >
+              <div
+                className="emotion-1"
+              >
+                <svg
+                  className="emotion-0"
+                  name="close"
+                  order={1}
+                  size={24}
+                />
+              </div>
+            </Flex>
+          </Base>
+        </Icon>
+      </button>
+    </Flex>
+  </IconButton>
+</CloseButton>
+`;

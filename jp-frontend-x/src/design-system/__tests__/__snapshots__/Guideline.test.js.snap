@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gridline component should render Guideline component 1`] = `
+.emotion-2 {
+  background-color: transparent;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 101;
+  position: absolute;
+}
+
+.emotion-1 {
+  width: 1px;
+  height: 100%;
+  border-color: white;
+  border-left: 1px;
+  border-style: dashed;
+  left: 50%;
+  position: absolute;
+  position: absolute;
+}
+
+.emotion-0 {
+  font-size: 24px;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+<Guideline>
+  <ScreenOverlay
+    bg="transparent"
+    bottom={0}
+    left={0}
+    position="absolute"
+    right={0}
+    top={0}
+    zIndex={101}
+  >
+    <div
+      className="emotion-2"
+    >
+      <Absolute
+        borderColor="white"
+        borderLeft={1}
+        borderStyle="dashed"
+        height="100%"
+        left="50%"
+        position="absolute"
+        width="1px"
+      >
+        <div
+          className="emotion-1"
+        >
+          <Text
+            fontSize={4}
+            info={true}
+            p={2}
+            position="absolute"
+            top="50%"
+            transform="rotate(-90deg)"
+          >
+            <div
+              className="emotion-0"
+              transform="rotate(-90deg)"
+            >
+              50%
+              px
+            </div>
+          </Text>
+        </div>
+      </Absolute>
+    </div>
+  </ScreenOverlay>
+</Guideline>
+`;
+
+exports[`Gridline component should render guideline with props 1`] = `
+.emotion-2 {
+  background-color: transparent;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 101;
+  position: absolute;
+}
+
+.emotion-0 {
+  font-size: 24px;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.emotion-1 {
+  width: 1px;
+  height: 100%;
+  border-color: white;
+  border-left: 1px;
+  border-style: dashed;
+  left: 30%;
+  position: absolute;
+  position: absolute;
+}
+
+<Guideline
+  left="30%"
+>
+  <ScreenOverlay
+    bg="transparent"
+    bottom={0}
+    left={0}
+    position="absolute"
+    right={0}
+    top={0}
+    zIndex={101}
+  >
+    <div
+      className="emotion-2"
+    >
+      <Absolute
+        borderColor="white"
+        borderLeft={1}
+        borderStyle="dashed"
+        height="100%"
+        left="30%"
+        position="absolute"
+        width="1px"
+      >
+        <div
+          className="emotion-1"
+        >
+          <Text
+            fontSize={4}
+            info={true}
+            p={2}
+            position="absolute"
+            top="50%"
+            transform="rotate(-90deg)"
+          >
+            <div
+              className="emotion-0"
+              transform="rotate(-90deg)"
+            >
+              30%
+              px
+            </div>
+          </Text>
+        </div>
+      </Absolute>
+    </div>
+  </ScreenOverlay>
+</Guideline>
+`;

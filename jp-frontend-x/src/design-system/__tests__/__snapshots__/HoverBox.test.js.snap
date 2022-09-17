@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HoverBox component should render as HoverBox 1`] = `
+.emotion-0 {
+  color: on.surface;
+  background-color: surface;
+}
+
+<HoverBox
+  bg="surface"
+  color="on.surface"
+  hover="bg.darken"
+>
+  <div
+    className="emotion-0"
+  />
+</HoverBox>
+`;
